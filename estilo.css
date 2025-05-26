@@ -1,0 +1,37 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #fbffac; /* El color del fondo de la página web */
+    color: #003cff; /* El color del texto*/ 
+}
+h1 {
+    color: #FD98FB; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center; /* Alineación del texto de la cabecera */
+    margin: 30px 0; /* Margen superior e inferior de la cabecera */}
+h2 {
+    color: #acc66a; /* El color de la cabecera secundaria */
+    font-size: 20px; /* El tamaño de la fuente de la cabecera secundaria */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera secundaria */
+    text-align: center; /* Alineación del texto de la cabecera secundaria */
+    margin: 20px 0; /* Margen superior e inferior de la cabecera secundaria */}
+    
+
+    @keyframes color-change {
+        0% {
+          color: blue;
+        }
+      
+        50% {
+          color: red;
+        }
+      
+        100% {
+          color: blue;
+        }
+    }
+    
+    h1 {
+        animation: color-change 3s infinite;
+    }
